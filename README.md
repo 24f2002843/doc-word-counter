@@ -6,7 +6,8 @@ To run this application, simply open `index.html` in a web browser.
 ## Features
 - Upload a plain text document (.txt)
 - Count the number of words in the uploaded document
-- Display the word count on the page
+- Display the total word count on the page
+- Display the top 3 most frequent words from the document
 
 ## Accessibility
 - The app is designed with semantic HTML5 elements for better accessibility.
@@ -30,10 +31,11 @@ To run this application, simply open `index.html` in a web browser.
 | Word Counter                                    | Title of the page and Header                    |
 | file upload (accepts .txt)                     | File input element in index.html                |
 | uploading the sample.txt triggers a word count | Logic in main.js when processing the file       |
+| Top 3 most frequent words                       | Display logic in main.js                        |
 
-## Changelog: Round 1
-- Created a single-page application that allows users to upload a .txt file and count the words in it.
-- Implemented a responsive layout, professional UX, and accessibility features.
+## Changelog: Round 2
+- Enhanced the app to count and display the top 3 most frequent words from the uploaded text document.
+- Integrated Bootstrap for styling, ensuring a mobile-responsive design.
 
 ## License
 MIT License
