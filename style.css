@@ -39,3 +39,10 @@ footer {
     margin-top: 2rem;
     font-size: 0.9rem;
 }
+
+/* Additional styles for responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem;
+    }
+}
