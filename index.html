@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Counter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Word Counter</h1>
+        <h1 class="text-center">Word Counter</h1>
     </header>
-    <main>
-        <section>
+    <main class="container">
+        <section class="my-4">
             <label for="file-upload">Upload a plain text document (.txt):</label>
-            <input type="file" id="file-upload" accept=".txt">
-            <button id="count-words">Count Words</button>
+            <input type="file" id="file-upload" accept=".txt" class="form-control mb-2">
+            <button id="count-words" class="btn btn-primary">Count Words</button>
         </section>
         <section>
             <h2>Word Count</h2>
-            <div id="word-count">0</div>
+            <div id="word-count" class="font-weight-bold h4">0</div>
+            <h3>Top 3 Most Frequent Words</h3>
+            <ul id="top-words" class="list-unstyled"></ul>
         </section>
     </main>
-    <footer>
+    <footer class="text-center my-4">
         <p>&copy; 2023 Word Counter App</p>
     </footer>
     <script src="main.js"></script>
