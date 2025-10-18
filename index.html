@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Word Counter</h1>
+    </header>
+    <main>
+        <section>
+            <label for="file-upload">Upload a plain text document (.txt):</label>
+            <input type="file" id="file-upload" accept=".txt">
+            <button id="count-words">Count Words</button>
+        </section>
+        <section>
+            <h2>Word Count</h2>
+            <div id="word-count">0</div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Word Counter App</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
